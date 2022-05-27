@@ -1,0 +1,12 @@
+name: GUISx
+version: '${project.version}'
+main: guis.guisx.GUISx
+api-version: 1.15
+author: ForevaMC
+commands:
+  gubs:
+    description: Dsaddd
+    usage: /gubs
+  gubin:
+    description: GUI
+    usage: /gubin
