@@ -10,6 +10,7 @@ public final class GUISx extends JavaPlugin {
        getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "[Plugin] Gui Is Enable!");
         getCommand("gubs").setExecutor(new Commanhello());
         getCommand("gubin").setExecutor(new CommandInventory());
+        getServer().getPluginManager().registerEvents(new EventInventory(), this);
     }
 
     @Override
